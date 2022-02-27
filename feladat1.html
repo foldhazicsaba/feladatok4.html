@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+    </script>
+    
+</head>
+<body>
+<p>Kérem, írjon be egy szöveget és nyomja meg a gombot!</p>
+
+<input type="text" id="myText" value.length="">
+
+
+<button onclick="myFunction()">Kattints!</button>
+<p>A szöveg ennyi karakter hosszú:</p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value.length;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+</body>
+</html>

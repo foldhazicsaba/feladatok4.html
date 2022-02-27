@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+
+    </script>
+    
+</head>
+<body>
+<p>Kérem, írjon be egy szöveget és nyomja meg a gombot!</p>
+
+<input type="text" id="myText" value.length="">
+
+
+<button onclick="myFunction()">Kattints!</button>
+<p>A szöveg ennyi karakter hosszú:</p>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value.length;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<p>Kérem, írjon be egy nagybetűs szöveget és nyomja meg a gombot!</p>
+
+<input type="text" id="myText" value="">
+
+
+<button onclick="myFunction()">Kattints!</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+  var b = x.toLowerCase();
+  document.write(b);
+}
+
+</script>
+<p>Kérem, írjon be egy nagybetűs szöveget és nyomja meg a gombot!</p>
+
+    <input type="text" id="myText" value="">
+    
+    
+    <button onclick="myFunction()">Kattints!</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myText").value;
+      document.getElementById("demo").innerHTML = x;
+      var b = x.toLowerCase();
+      document.write(b);
+      var c = b.toUpperCase();
+      document.write(c);
+    }
+    
+    </script>
+    
+</body>
+</html>

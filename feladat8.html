@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript"></script>
+</head>
+<body>
+    <p>Kérem, írjon be egy szöveget és nyomja meg a gombot!</p>
+
+    <input type="text" id="myText" value="">
+    
+    
+    <button onclick="myFunction()">Kattints!</button>
+    <p id="demo"></p>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myText").value;
+      document.getElementById("demo").innerHTML = x;
+    var str = x;
+        var elsoKarakterASCII = str.charCodeAt(0);
+        var masodikKarakterASCII = str.charCodeAt(1);
+        var harmadikKarakterASCII = str.charCodeAt(2);
+        var negyedikKarakterASCII = str.charCodeAt(3);
+        var otodikKarakterASCII = str.charCodeAt(4);
+        var hatodikKarakterASCII = str.charCodeAt(5);
+        var hetedikKarakterASCII = str.charCodeAt(6);
+        var nyolcadikKarakterASCII = str.charCodeAt(7);
+        var kilencedikKarakterASCII = str.charCodeAt(8);
+        var tizedikKarakterASCII = str.charCodeAt(9);
+    
+    </body>
+</html>
